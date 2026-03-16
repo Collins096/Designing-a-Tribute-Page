@@ -1,0 +1,93 @@
+/* ===========================
+   Global Styles
+=========================== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  /* ===========================
+     Title
+  =========================== */
+  #title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  /* ===========================
+     Figure and Image
+  =========================== */
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+  }
+  
+  #image {
+    max-width: 100%;
+    max-height: 60vh;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* ===========================
+     Tribute Info Section
+  =========================== */
+  #tribute-info {
+    background-color: rgba(0, 0, 128, 0.3);
+    padding: 25px;
+    margin: 20px auto;
+    border: 2px solid #0077ff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 119, 255, 0.5);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #tribute-info:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+  }
+  
+  #tribute-info p {
+    line-height: 1.8em;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+  
+  /* ===========================
+     External Link
+  =========================== */
+  #tribute-link {
+    color: #ffd700;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  
+  #tribute-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
