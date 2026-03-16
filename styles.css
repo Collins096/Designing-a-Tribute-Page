@@ -67,7 +67,7 @@ body {
   }
   
   #tribute-info:hover {
-    transform: translateY(-15px);
+    transform: translateX(15px);
     box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
   }
   
